@@ -27,12 +27,17 @@ overflow-y: scroll;
 
 
  }
+ .App{
+    height: 100vh;
+    width: 100%vh;
+    }
 
 .container{
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
-    align-items: center !important;
+    display: initial;
+  /*   width: 500px;
+    align-items: center !important; */
 }
 h1{
  font-size: 3em;   
@@ -50,6 +55,11 @@ input {
     border-color: rgb(231, 231, 231);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 17px;
+    width: 400px;
+    clear: both;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .addItem{
