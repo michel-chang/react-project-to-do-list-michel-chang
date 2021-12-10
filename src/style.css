@@ -35,10 +35,10 @@ overflow-y: scroll;
 .container{
     margin-left: auto;
     margin-right: auto;
-    display: initial;
-  /*   width: 500px;
-    align-items: center !important; */
+    width: 400px;
+    display: inherit;
 }
+
 h1{
  font-size: 3em;   
  font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -47,8 +47,9 @@ h1{
  background: -webkit-linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
  -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-
 }
+
+
 
 input {
     height: 3em;
